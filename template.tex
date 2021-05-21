@@ -1,0 +1,197 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+
+\cvname{Felipe Rocha} % Your name
+\cvjobtitle{DSc. Comp. Modelling} % Job title/career
+
+\cvdate{17 January 1990, Natal, Brazil} % Date of birth
+\cvaddress{f.rocha.felipe@gmail.com \newline felipe.figueredorocha@epfl.ch} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+41 77 8158008} % Phone number
+\cvsite{Orcid: 0000-0001-6893-1109 \newline Researchgate: Felipe\underline{ }Figueredo \newline Github: https://github.com/felipefr} % Personal website
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 Education
+%----------------------------------------------------------------------------------------
+
+\Education{
+2019 | DSc. Computational Modelling LNCC, Petropolis, Brazil | GPA:3.83/4 \vskip 0.1cm
+2014| MSc. Computational Modelling LNCC, Petropolis, Brazil | GPA:3.9/4 \vskip 0.1cm
+2012 | B.E. Mechanical Engineering UFRN, Natal, Brazil | GPA:8.8457/10} % To have no Education section, just remove all the text and leave \Education{}
+
+\ExtraCurricular{
+Scientific Computing: Numerical Methods; Numerical Solution of Differential Equations; Numerical Analysis of Finite Element Methods;
+Optimisation Methods;
+\vskip 0.1cm 
+Mathematics: Real Analysis; Functional Analysis; Variational Calculus; Probability and Statistics.
+\vskip 0.1cm
+Computational Mechanics: Continuum Mechanics; Computational Transport Phenomena; Advanced Variational Formulations for the Human Cardiovascular System.
+\vskip 0.1cm
+Computer Science: Data Structures ; Software Design ; Object-oriented Programming Languages; Parallel Processing. 
+}
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{B - Basic, F- Fluent \newline
+Languages: Fortran 77/90 (F), Python (F), C/C++ (F), Matlab (B).
+\newline Extensions and Libraries : Numpy/Scipy (F), OpenMP (B), MPI (B), Petsc (B), pytest (B).  
+\newline  Other: Linux (F), Latex (F), Paraview (F), Bash (B), Git (B), Slurm (B). }
+
+\linguas{
+Portuguese (Native), English (C1, IELTS: 6.5, TOEFL: 89), French (B1-B2) , Spanish (B1-B2), German (Very basic, mainly reading).
+}
+\makeprofile % Print the sidebar
+
+\section{Research and Projects}
+
+\begin{twenty}
+	\twentyitem{Thesis}{(Jan'15-Apr'19) Multiscale Modelling of Fibrous Materials: from the elastic regime to failure detection in soft tissues}{}{Supervisors: Prof. Pablo Javier Bland and Prof. Raul Feijoo. \newline
+	Institution: National Laboratory for Scientific Computing (LNCC), Petropolis, Brazil.
+	}
+	\twentyitem{Master}{(Mar'13-Dec'14) Basics Aspects of Multi-Scale Modelling of Biological Tissues [In Portuguese]}{}{Supervisors and Institution : as above.}
+	\twentyitem{Final Project}{(Aug'12-Dec'12) Development of a Computational Dynamics Software for Multiple Rigid Bodies Analysis [In Portuguese]}{}{Supervisors: Prof. Wallace Bessa. \newline
+	Institution: Federal University of Rio Grande do Norte (UFRN), Natal, Brazil.}
+	\twentyitem{Final Project}{(Dec'11-Jul'12) Modelling and Numerical Simulation of the Machining Process in an Automobile Part [In French]}{}{Supervisors: Prof. Philippe Lorong and Prof. Jerôme Duchemin. \newline
+	Institution: Arts et Métiers Paristech (ENSAM), Paris, France.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+\section{Short- and Long-term Academic Visits}
+
+\begin{twenty}
+\twentyitem{Sep-Fev'18}{Prof. Eduardo de Souza Neto, Swansea University, Swansea, UK}{}{I visited the Zienkiewicz Centre for Computational Engineering (ZCCE) as part of the sandwich exchange program during my PhD. During this period, under supervision of Prof. de Souza Neto, expert in the domain of Computational Plasticity and Constitutive Multiscale theories, we developed and implemented a nouvel micromechanical inelastic model for networks of fibres. I was funded with special scholarship (PSDE/CAPES) by the Brazilian Government.}
+
+\twentyitem{Apr'17}{Prof. Anne Robertson, University of Pittsburgh, Pittsburgh, USA} {}{I spent 20 days observing mechanical experiments in livings tissues (arteries) and collaborating with microscopic modelling of collagen tissues.}
+
+\twentyitem{Jun-Jul'15}{Prof. Pablo Sanchez and Prof. Alfredo Huespe, Centro de Investigación de Métodos Computacionales (CIMEC), Santa Fe, Argentina}{}{As part of my thesis, I spent a month collaborating and learning from two experts in the domain of computational fracture mechanics field.}
+
+\twentyitem{Aug-Jul'12}{Arts et Métiers Paristech (ENSAM), Paris, France}{}{I took part of undergraduate studies in a sandwich exchange program in France. I was enrolled in the third (last) year, which consisted in a  masters degree in ''Prototypage Virtuel'' (Computational Solid Mechanics), being one semester of academic courses and one semester of research project. (Funded by a special scholarship (Brafitec/CAPES, Brazilian Government) that fosters collaboration with French Engineering Schools.)}
+\end{twenty}
+
+\section{Relevant Complementary Education}
+\item \textbf{2018 (4h)} Python for HPC, LNCC, Petropolis, Brasil.
+\item \textbf{2015 (6h) } New Formulations of Finite Element Method, LNCC, Petropolis, Brazil.
+\item \textbf{2014 (32h) } Biomech. Summerschool: Trends of Modelling, TUGraz, Graz, Austria.
+\item \textbf{2014 (4h) } Topological Asymptotic Analysis, LNCC, Petropolis-RJ, Brazil. 
+\item \textbf{2014 (7h) } Object-Oriented Finite Element Method, LNCC, Petropolis-RJ, Brazil.
+
+\section{Teaching Experiences}
+\item \textbf{Jun'-Sep'2018: Numerical Methods (LNCC):} I worked as a tutor for students pursuing MS and PhD degrees in Computational Modelling at LNCC.
+
+\item \textbf{Mar'-May'2018: Introduction to Modelling:} See comments above.
+
+\item \textbf{Mar'-Oct'2017: Preparation for the Brazilian Mathematics Olympiads:} I worked as a online tutor for distinguished high-school students of public schools.
+
+
+\footnotesize{}
+
+\newpage % Start a new PAGE
+
+\makeprofile % Print the sidebar
+
+
+\section{Specific Comments to the Position Application}
+
+\item \textbf{Solid background on the numerical analysis and scientific computing:} Starting in my undergraduate studies but further developed during my Masters and PhD period, numerical analysis and scientific computing have always been the core of my coursework.}
+
+\item \textbf{Good coding skills:} I start programming since the first day of University (literally). Firstly, I learned C/C++, including object-orientation paradigm. Secondly, I was introduced to more high level languages such as Matlab and Python, the latter being my preferable choice now. Later on, during my graduate studies, I had the opportunity to sharpen my skills taking more advanced courses on computer science (see coursework on the left panel). Finally, during my Masters and PhD project, I developed in-house finite element solvers using modern Fortran (core) and Python (as configuration language).  
+\item \textbf{Solid mechanics expertise:} Having a background in Mechanical Engineering, I have studied the broad range of theories in mechanics, but specially Nonlinear Solid Mechanics (in both geometrical and constitutive sense) has been the topic of my utmost interest. This is the main reason why of the expertise chosen at ENSAM and also guided me in my Masters and PhD projects (both at LNCC). In these latter, I studied soft tissues in cardiovascular solid mechanics. 
+\item \textbf{Machine Learning:} Since middle of last year, when I have read Oishi, A. and Ayagawa, G. (2017) \textit{Computational mechanics enhanced by deep learning}, CMAME, I became interested to ML. It was the first time that I realised the wide range of applications of ML to my current research field, which is computational mechanics/scientific computing. Since I finished my PhD project (April 2019), I took an online course at AI (from COPPE/UFRJ, Brazil) and now I am attending to an introductory ML course at LNCC, both at graduate level.  
+
+\section{Published Works}
+\item \textbf{Peer-reviewed journal:}
+\begin{enumerate}
+\item Felipe Figueredo Rocha, Pablo Javier Blanco, Pablo Javier Sánchez, and Raúl Antonino Feijóo. Multi-scale modelling of arterial tissue: Linking networks of fibres to continua. \textit{Computer Methods in Applied Mechanics and Engineering}, 341:740–787, 2018
+\item Felipe Figueredo Rocha, Pablo Javier Blanco, Pablo Javier Sánchez, Eduardo de Souza Neto, and Raúl Antonino Feijóo. Multi-scale modelling of damage-driven strain localisation in fibrous tissues (resubmitted after major revision). \textit{Journal of the Mechanics and Physics of Solids}, 2019.
+\item Pablo Javier Blanco, Pablo Javier Sánchez, Felipe Figueredo Rocha, Sebastian Toro, and Raúl Antonino Feijóo. A consistent multiscale mechanical formulation for media with randomly distributed voids (in submission process). \textit{Computer Methods in Applied Mechanics and Engineering}, 2019.
+\end{enumerate}	
+\vskip -0.1cm
+\item \textbf{Complete articles in conference proceedings:} 
+\begin{enumerate}
+	\item F.F. Rocha, P.J. Blanco, R.A. Feijóo, P.J. Sanchez, and A.E. Huespe. A multi-scale approach to model arterial tissue. \textit{In Ibero-Latin American Congress on Computational Methods in Engineering} (CILAMCE), Rio
+	de Janeiro, 2015.
+\end{enumerate}	
+\vskip -0.1cm
+\item \textbf{Extended Abstracts in Conferences:}
+\begin{itemize}
+\item F.F. Rocha; P.J. Blanco ; P.J. Sánchez; R.A. Feijóo. On the constitutive modeling for fibrous tissues. In: International Conference on Computational and Mathematical Biomedical Engineering, 2017, PITTSBURGH. International Conference on Computational and Mathematical Biomedical Engineering Proceedings, 2017.
+\end{itemize}
+\item \textbf{Abstracts in Conferences:} 
+\begin{itemize}
+	\item P.J. Blanco, P.J. Sánchez, F.F. Rocha, Toro, S.; R.A. Feijóo.
+	Multiscale formulation for materials with randomly distributed voids: minimally constrained and more restrictive multiscale sub-models. In: XII Argentine Congress on
+	Computational Mechanics, 2018, San Miguel de Tucumán.
+	Mecánica Computacional. Santa Fé: Asociación Argentina de Mecánica Computacional, 2018. v.XXXVI.
+	p.1683 - 1683
+	\item F.F. Rocha; P.J. Blanco; de Souza Neto, E.; P.J. Sánchez, R.A. Feijóo.
+	Towards post-critical multiscale modelling of damage in biological fibrous tissues.
+	In: XII Argentine Congress on Computational Mechanics, 2018, San Miguel de Tucumán.
+	Mecánica Computacional. Santa Fé: Asociación Argentina de Mecánica Computacional, 2018. v.XXXVI.
+	p.1875 - 1875
+	\item F.F. Rocha, P.J. Blanco, P.J. Sánchez, R.A. Feijóo.
+	A Multiscale Approach to Study Softening Mechanisms in Arterial Tissue In: EMI2017-IC - 2017 EMI
+	International Conference, 2017, Rio de Janeiro. EMI2017-IC - 2017 EMI International Conference Proceedings. , 2017.
+	\item Toro, S., F.F. Rocha, P.J. Sánchez, P.J. Blanco, A.E. Huespe, R.A. Feijóo.
+	Modelado Multiescala de Materiales: Análisis de Condiciones de Borde en Micro-Estructuras con Poros y/o
+	Inclusiones que Alcanzan la Frontera del RVE In: Congreso sobre Métodos Numéricos y sus Aplicaciones,
+	2017, La Plata. Anais do ENIEF 2017. La Plata: Asociación Argentina de Mecánica Computacional, 2017. v.XXXV. p.1309 -1309
+\end{itemize}
+
+\section{Achievements}
+\item \textbf{2017 - ''Aluno nota 10'' (LNCC):} scholarship awarded to the best PhD student.
+\item \textbf{2014 - ''Aluno nota 10'' (LNCC):} scholarship awarded to the two best MS students.}
+\item \textbf{2012 - Summa cum Laude (UFRN): } higher GPA of its undergraduate class.}
+\item \textbf{2006 - Silver Medal:} on the Brazilian Mathematics Olympiads of Public Schools.
+
+
+
+
+% \section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
