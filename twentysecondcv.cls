@@ -72,6 +72,7 @@
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
+\newcommand{\cvlinks}[1]{\renewcommand{\cvlinks}{#1}}
 \newcommand{\Education}[1]{\renewcommand{\Education}{#1}}
 \newcommand{\ExtraCurricular}[1]{\renewcommand{\ExtraCurricular}{#1}}
 \newcommand{\skills}[1]{\renewcommand{\skills}{#1}}
@@ -140,6 +141,7 @@
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
 			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
+			\ifthenelse{\equal{\cvlinks}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvlinks\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
         
